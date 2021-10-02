@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.L.A University</title>
+    <link rel="stylesheet" href="course.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+                <a href="index.html">
+                    <img src="picfolder/logo.png">
+                 </a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+           </div>
+           <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Making website is now one of the easiest thing in the world.you just need to learn HTML,CSS,<br>Javascript and ypu are good to go.</p>
+           <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    <section class="course">
+         <h1>Courses We Offer</h1>
+         <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+         <div class="row">
+            <div class="course-col">
+                <h3>C.S.E Engineering</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquid totam recusandae! Repudiandae commodi ipsum assumenda! Molestias, sint cumque! Iste ab alias voluptatem et labore unde ducimus eos nisi libero?</p>
+            </div>
+            <div class="course-col">
+                <h3>Textile Engineering</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquid totam recusandae! Repudiandae commodi ipsum assumenda! Molestias, sint cumque! Iste ab alias voluptatem et labore unde ducimus eos nisi libero?</p>
+            </div>
+            <div class="course-col">
+                <h3>Electrical Engineering</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquid totam recusandae! Repudiandae commodi ipsum assumenda! Molestias, sint cumque! Iste ab alias voluptatem et labore unde ducimus eos nisi libero?</p>
+            </div>            
+        </div> 
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquid totam recusandae! Repudiandae commodi ipsum assumenda! Molestias, sint cumque! Iste ab alias voluptatem et labore unde ducimus eos nisi libero?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquid totam recusandae! Repudiandae commodi ipsum assumenda! Molestias, sint cumque! Iste ab alias voluptatem et labore unde ducimus eos nisi libero?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquid totam recusandae! Repudiandae commodi ipsum assumenda! Molestias, sint cumque! Iste ab alias voluptatem et labore unde ducimus eos nisi libero?</p>
+            </div>            
+        </div>        
+    </section> 
+    <sectoin class="fotter">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ea aut sed inventore minima itaque,<br> alias accusamus officiis dolorum suscipit impedit odit enim at dignissimos repellat aspernatur tenetur omnis iure.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <div class="made-with"
+        style="display: flex; 
+        justify-content: center;"
+        >
+            <p style="padding-right: 2px;">Made with by</p>
+            <div class="heart" style="margin-top: 17px;"></div>
+            <p> Easy Tutorials</p>
+        </div>
+        <p>&copy; 2021 Edited by M.L.A Shuvo</p>
+    </sectoin>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-500px";
+    }
+</script>
+   
+</body>
+</html>  
